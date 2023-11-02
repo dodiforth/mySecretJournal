@@ -36,7 +36,7 @@
             android:layout_width="40dp"
             android:layout_height="60dp"
             android:layout_marginEnd="10dp"
-            android:background="@color/black"
+            android:background="@color/lock"
             app:cornerRadius="0dp"
             app:layout_constraintBottom_toBottomOf="@id/firstNumberPicker"
             app:layout_constraintEnd_toStartOf="@id/firstNumberPicker"

@@ -3,6 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="lock">#A2A2A2</color>
-    <color name="cover">#ACA9A9</color>
+    <color name="cover">#8B8989</color>
     <color name="parentCover">#FFDCA8</color>
 </resources>
