@@ -1,6 +1,7 @@
 package com.example.mysecretdays
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -83,7 +84,7 @@ class MainActivity : AppCompatActivity() {
             if (passwordPreference.getString("password", "000").equals(passwordFromUser)) {
                 // Access authorised!
                 //TODO -> open the journal page, but first we should create the journal page(view)
-                //startActivity()
+                startActivity(Intent(this, JournalActivity::class.java))
             } else {
                 // Access Failed!
                 //TODO -> error pops up
